@@ -1,0 +1,13 @@
+.container{
+    font-family: Comic Sans MS;
+    background-color: pink;
+}
+#intro{
+    text-align: center;
+    font-size: 25px;
+}
+#morning{
+    border-width: 0.5px;
+    border-style: dashed;
+    border-color: rebeccapurple;
+}

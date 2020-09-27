@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Healthy Life Style Checklist</title>
+    <!-- Bootstrap Styles-->
+    <link rel="stylesheet" href="resources/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/styles/styles.css" />
+</head> 
+
+<body>
+    <div class="container">
+        <!-- WORK FROM INSIDE THIS CONTAINER-->
+        <h1 style="text-align: center;"> Health Checklist</h1>
+        <div id="intro" class="col-sm-12">
+            <p>
+                Welcome to the Health Checklist. We will help you build a healthy living style! Let's get started!
+                Please check all the checkboxes which you have done for today. Your goal is check all the checkboxes!
+            </p>
+        </div>
+        <div id="addList">
+            <label >type something</label>
+            <input type="text" id="addNew"></npsb>
+            <button id="myBtn">Try</button>
+            <p id="demo"></p>
+
+            <label >type something</label>
+            <input type="text" id="addNew"></npsb>
+            <button id="myBtn2">Try</button> 
+            <p id="demo2"></p>
+
+        </div>
+
+     
+    <!-- Our own Scripts -->
+    <script src="resources/scripts/index.js"></script>
+</body>
+
+</html>
+<script>
+    document.getElementById("myBtn").addEventListener("click", displayDate);
+    document.getElementById("myBtn2").addEventListener("click", displayDate2);
+
+function displayDate() {
+  document.getElementById("demo").innerHTML = Date();
+}
+
+function displayDate2() {
+  document.getElementById("demo2").innerHTML = Date();
+}
+</script>
