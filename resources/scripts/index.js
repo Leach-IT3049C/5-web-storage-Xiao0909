@@ -13,10 +13,10 @@ if(storage){
     display.textContent = stored
 }
 
-const saveToLocalStorage = () =>{
+const saveLocal = () =>{
     localStorage.setItem('textinput', display.textContent)
  }
 
-myBtn.addEventListener('click', saveToLocalStorage)
+myBtn.addEventListener('click', saveLocal)
 
 
