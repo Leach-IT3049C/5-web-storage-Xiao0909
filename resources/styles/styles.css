@@ -2,12 +2,12 @@
     font-family: Comic Sans MS;
     background-color: pink;
 }
-#intro{
-    text-align: center;
-    font-size: 25px;
+
+.reminder1{
+    margin-top: 35px;
+    margin-bottom: 35px;
+
 }
-#morning{
-    border-width: 0.5px;
-    border-style: dashed;
-    border-color: rebeccapurple;
+.display{
+    font-size: 25px;
 }
