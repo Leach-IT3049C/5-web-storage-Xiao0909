@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daily Reminder</title>
+    <!-- Bootstrap Styles-->
+    <link rel="stylesheet" href="resources/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="resources/styles/styles.css" />
+</head> 
+
+<body>
+    <div class = "container">
+        <h1 style="text-align:  center;">Your Daily Reminder!</h1>
+
+        <div class="reminder">
+            <div class="firstInput">
+                <input class = "data col-sm-7" type="text">
+                <button class="myBtn col-sm-4" onclick="myFunc">Save your reminder</button>
+            </div>
+            <p class="display">Your First Reminder</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+<script src="resources/scripts/index.js"></script>
+<script>
+    function myFunc(){
+        document.getElementById("display").innerHTML = Date();
+    }
+</script>

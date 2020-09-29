@@ -1,0 +1,13 @@
+.container{
+    font-family: Comic Sans MS;
+    background-color: pink;
+}
+
+.reminder1{
+    margin-top: 35px;
+    margin-bottom: 35px;
+
+}
+.display{
+    font-size: 25px;
+}
